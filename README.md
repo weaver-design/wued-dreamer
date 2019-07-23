@@ -1,4 +1,4 @@
-# WUED-Dreamer
+# WUED Dreamer
 
 A fullstack deved for my dreamer
 
