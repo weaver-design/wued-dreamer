@@ -61,5 +61,3 @@ AccessKeySecret seocZtVqMMJvIG5FMSGmiEQx70nPLr
 密码：`Jack851102/.,`
 
 开机密码：`170418`
-
-Hook Test 123 555 7676 7i887ih
