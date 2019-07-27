@@ -39,3 +39,27 @@ npm run start
 ## 国际化
 
 ## SEO
+
+用户登录名称 ddj@1984178499632801.onaliyun.com
+登录密码 wued2019
+AccessKey ID LTAIRFudALsYKX2J
+AccessKeySecret 0kvmLorLco4UlzOBvj7UbypdKWvId3
+
+用户登录名称 shy@1984178499632801.onaliyun.com
+登录密码 wued2019
+AccessKey ID LTAIzQqtc1uCuK0z
+AccessKeySecret seocZtVqMMJvIG5FMSGmiEQx70nPLr
+
+阿里云登录
+账号：jackgchen110
+密码：jack851102
+原远程地址：`http://116.62.20.80`
+新远程地址 `http://47.99.54.213`
+
+账号：`administrator`
+
+密码：`Jack851102/.,`
+
+开机密码：`170418`
+
+Hook Test
