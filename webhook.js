@@ -2,3 +2,6 @@
 
 
 // maksome nodes tete
+
+
+// ytryry
