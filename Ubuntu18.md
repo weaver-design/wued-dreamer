@@ -26,6 +26,7 @@ cd node-v10.16.0-linux-x64/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/node  /usr/local/bin/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/npm  /usr/local/bin/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/pm2  /usr/local/bin/
+sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/strapi  /usr/local/bin/
 ```
 
 ## MongoDB
