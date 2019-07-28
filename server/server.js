@@ -10,8 +10,9 @@
 
 process.chdir(__dirname);
 
+console.log('当前工作路径 ------'+ __dirname);
+
 (() => {
   const strapi = require('strapi');
   strapi.start();
-  console.log('----- strip start');
 })();
