@@ -47,5 +47,5 @@ npm i pm2 -g
 ```
 
 ``` npm
-NODE_ENV=production pm2 start server.js --name wued-dreamer
+sudo NODE_ENV=production pm2 start server.js --name wued-dreamer
 ```
