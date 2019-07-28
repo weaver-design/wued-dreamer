@@ -68,8 +68,4 @@ root
 
 wued@2019
 
-`http://94.191.44.143:1337/teams`
-
-regist bug
-
-https://github.com/strapi/strapi/blob/6a34fe519ceb28aea1957df68def52d943c389a4/packages/strapi-admin/controllers/Auth.js#L145
+腾讯云测试服务器：`http://94.191.44.143:1337/teams`
