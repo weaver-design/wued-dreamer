@@ -50,5 +50,3 @@ npm i pm2 -g
 ``` npm
 sudo NODE_ENV=production pm2 start server.js --name wued-dreamer
 ```
-
-npm install strapi@beta -g
