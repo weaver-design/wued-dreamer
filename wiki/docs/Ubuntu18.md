@@ -2,14 +2,6 @@
 
 This is the guide for how do you deploy your Nodejs App in Ubuntu.
 
-```
-useradd -m ubuntu
-
-sudo ubuntu
-
-passwd ubuntu
-```
-
 ``` linux
 sudo apt-get update -y
 
@@ -33,7 +25,7 @@ wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz
 tar xf  node-v10.16.0-linux-x64.tar.xz
 cd node-v10.16.0-linux-x64/
 ./bin/node -v
-sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/node  /usr/local/bin/
+sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/node /usr/local/bin/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/npm  /usr/local/bin/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/pm2  /usr/local/bin/
 sudo ln -s /home/ubuntu/node-v10.16.0-linux-x64/bin/strapi  /usr/local/bin/
@@ -58,5 +50,17 @@ npm i pm2 -g
 ```
 
 ``` npm
+cd server
+
+sudo pm2 start webhook.js
+
+sudo NODE_ENV=production npm run build
+
 sudo NODE_ENV=production pm2 start server.js --name wued-dreamer
 ```
+
+```
+sudo apt install -y build-essentials
+```
+
+[[1]为普通用户增加权限](https://bbs.aliyun.com/simple/t334024.html)
