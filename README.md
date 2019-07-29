@@ -54,7 +54,7 @@ AccessKeySecret seocZtVqMMJvIG5FMSGmiEQx70nPLr
 账号：jackgchen110
 密码：jack851102
 原远程地址：`http://116.62.20.80`
-新远程地址 `http://47.99.54.213`
+新远程地址 `http://47.99.54.213:1337`
 
 账号：`administrator`
 

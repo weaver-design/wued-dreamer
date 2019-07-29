@@ -64,3 +64,7 @@ sudo apt install -y build-essentials
 ```
 
 [[1]为普通用户增加权限](https://bbs.aliyun.com/simple/t334024.html)
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+
+sudo apt-get install -y nodejs
