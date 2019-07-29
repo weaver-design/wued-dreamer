@@ -2,6 +2,12 @@
 
 This is the guide for how do you deploy your Nodejs App in Ubuntu.
 
+```
+useradd -m ubuntu
+
+sudo ubuntu
+```
+
 ``` linux
 sudo apt-get update -y
 
