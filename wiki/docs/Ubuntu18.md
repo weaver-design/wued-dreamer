@@ -6,6 +6,8 @@ This is the guide for how do you deploy your Nodejs App in Ubuntu.
 useradd -m ubuntu
 
 sudo ubuntu
+
+passwd ubuntu
 ```
 
 ``` linux
