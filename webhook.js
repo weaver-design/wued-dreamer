@@ -12,12 +12,12 @@ http.createServer(function (req, res) {
 	  chunks += chunk.toString();
       const sig = "sha1=" + crypto.createHmac('sha1', secret).update(chunks).digest('hex');
       if (req.headers['x-hub-signature'] == sig) {
-        exec('git pull && cd ./Dreamer && git pull');
+        exec('git pull');
         //exec('cd ' + repo + ' && git pull');
       }
   });
 
-  res.end('Hello World To Github\n');
+  res.end('Hello World Form WUEDDreamerHook\n');
 }).listen(8080);
 
 // const http = require('http');
