@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/teams": {
+    "/api/teams": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -248,7 +248,7 @@
         }
       }
     },
-    "/teams/count": {
+    "/api/teams/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -305,7 +305,7 @@
         "parameters": []
       }
     },
-    "/teams/{_id}": {
+    "/api/teams/{_id}": {
       "get": {
         "deprecated": false,
         "description": "",
