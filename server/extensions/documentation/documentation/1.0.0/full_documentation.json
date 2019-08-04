@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/03/2019 9:35:21 AM"
+    "x-generation-date": "08/04/2019 5:37:17 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -44,7 +44,7 @@
     }
   ],
   "paths": {
-    "/api/teams": {
+    "/teams": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -292,7 +292,7 @@
         }
       }
     },
-    "/api/teams/count": {
+    "/teams/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -349,7 +349,7 @@
         "parameters": []
       }
     },
-    "/api/teams/{_id}": {
+    "/teams/{_id}": {
       "get": {
         "deprecated": false,
         "description": "",
