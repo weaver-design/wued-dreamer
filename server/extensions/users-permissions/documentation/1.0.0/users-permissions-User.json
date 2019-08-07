@@ -1161,6 +1161,33 @@
                 }
               }
             }
+          },
+          "posts": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "article",
+                "copyright"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "article": {
+                  "type": "string"
+                },
+                "copyright": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1198,6 +1225,12 @@
           },
           "role": {
             "type": "string"
+          },
+          "posts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }

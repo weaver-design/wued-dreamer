@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "team",
   "info": {
     "name": "team",
-    "description": "This is an api designed for wued team and show the info of everybody with a card lists."
+    "description": "团队介绍"
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "name": {
