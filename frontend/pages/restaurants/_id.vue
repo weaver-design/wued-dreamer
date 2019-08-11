@@ -14,7 +14,7 @@
                 </p>
                 <p class="card-text">${{ dish.price }}</p>
                 <button class="btn btn-primary" @click="addToCard(dish)">
-                  Add to card
+                  添加到购物车
                 </button>
               </div>
             </div>
@@ -55,7 +55,7 @@
                 class="btn btn-primary"
                 @click="goToCheckout"
               >
-                Order
+                预定
               </button>
             </div>
           </div>

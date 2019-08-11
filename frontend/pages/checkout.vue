@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="mt-2">Checkout</h1>
+      <h1 class="mt-2">结算中心</h1>
       <div class="row">
         <div class="col-md-6 offset-md-3 mt-3">
           <div class="card">
@@ -41,41 +41,44 @@
         <div class="col-md-6 offset-md-3 mt-3">
           <form autocomplete="off" @submit.stop.prevent="handleSubmit">
             <div class="form-group">
-              <label for="address">Address</label>
+              <label for="address">收货地址</label>
               <b-form-input
                 id="address"
                 v-model="address"
                 type="text"
-                autofocus="true"
+                autofocus
                 placeholder="Enter your address"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="postalCode">Postal Code</label>
+              <label for="postalCode">邮政编码</label>
               <b-form-input
                 id="postalCode"
                 v-model="postalCode"
                 type="text"
-                autofocus="true"
+                autofocus
                 placeholder="Enter your postal code"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="city">City</label>
+              <label for="city">城市</label>
               <b-form-input
                 id="city"
                 v-model="city"
                 type="text"
-                autofocus="true"
+                autofocus
                 placeholder="Enter your city"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="card">Card</label>
-              <card class="form-control" stripe="pk_test_stripe" />
+              <label for="card">支付卡号</label>
+              <card
+                class="form-control"
+                stripe="pk_test_TOY3KZyd2aQFuF7MvpI6uMzK00f1bPQOLO"
+              />
             </div>
             <button
               :disabled="loading"

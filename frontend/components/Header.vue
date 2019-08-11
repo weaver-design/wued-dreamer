@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <router-link tag="a" class="navbar-brand" to="/" exact>
-        Deliveroo clone
+        WUED Dreamer
       </router-link>
       <div class="collapse navbar-collapse justify-content-end">
         <ul class="navbar-nav">
@@ -22,7 +22,7 @@
               to="/signin"
               exact
             >
-              Signin
+              登录
             </router-link>
           </li>
           <li v-if="!username">
@@ -33,7 +33,7 @@
               to="/signup"
               exact
             >
-              Signup
+              注册
             </router-link>
           </li>
         </ul>

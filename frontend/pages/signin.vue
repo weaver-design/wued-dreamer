@@ -3,7 +3,7 @@
     <div class="col-md-6 offset-md-3 mt-3">
       <form autocomplete="off" @submit.stop.prevent="handleSubmit">
         <div class="form-group">
-          <label for="email">Email</label>
+          <label for="email">邮箱</label>
           <b-form-input
             id="email"
             v-model="email"
@@ -14,7 +14,7 @@
           />
         </div>
         <div class="form-group">
-          <label for="password">Password</label>
+          <label for="password">密码</label>
           <b-form-input
             id="password"
             v-model="password"

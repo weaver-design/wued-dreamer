@@ -31,7 +31,7 @@
                 tag="a"
                 class="btn btn-primary"
               >
-                See dishes
+                查看作品
               </router-link>
             </div>
           </li>
