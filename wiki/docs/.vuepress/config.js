@@ -12,10 +12,10 @@ module.exports = {
     sidebar: {
       '/guild/': [
         '',
-        'struct',
+        'structure',
         'frontend',
         'backend',      
-        'deploy',
+        'devops',
       ],
 
       '/components/': [
