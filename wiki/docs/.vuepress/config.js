@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '指南', link: '/guide/' },
-      { text: '组件库', link: '/components/' },
+      { text: '组件库', link: 'https://wued-dreamer-storybook.netlify.com/' },
       { text: 'Dreamer_v1', link: 'http://47.99.54.213/' },
       { text: 'Dreamer_admin', link: 'http://47.99.54.213:1337/admin' },
       { text: 'Github', link: 'https://github.com/weaver-design/wued-dreamer' },
@@ -29,6 +29,8 @@ module.exports = {
         title: 'FrontEnd',
         children: [
           '/frontend/',
+          '/frontend/atomsystem',
+          '/frontend/storybook',
         ]
       }, {
         title: 'BackEnd',
