@@ -10,7 +10,7 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/weaver-design/wued-dreamer' },
     ],
     sidebar: {
-      '/guild/': [
+      '/guide/': [
         '',
         'structure',
         'frontend',
