@@ -1,8 +1,8 @@
-import Vue from 'vue';
-import { storiesOf } from '@storybook/vue';
-import MyButton from './Button.vue';
+import Vue from 'vue'
+import { storiesOf } from '@storybook/vue'
+import MyButton from './Button.vue'
 
-Vue.component('my-button', MyButton);
+Vue.component('my-button', MyButton)
 
 storiesOf('Button', module)
   .add('with text', () => '<my-button>with text</my-button>')
@@ -10,4 +10,4 @@ storiesOf('Button', module)
   .add('as a component', () => ({
     components: { MyButton },
     template: '<my-button :rounded="true">rounded</my-button>'
-  }));
+  }))

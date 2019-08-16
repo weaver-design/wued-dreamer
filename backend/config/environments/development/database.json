@@ -2,18 +2,16 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-mongoose",
+      "connector": "strapi-hook-bookshelf",
       "settings": {
-        "database": "wued_dreamer",
-        "host": "127.0.0.1",
-        "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
+        "client": "mysql",
+        "database": "wued_dreamer_dev",
+        "host": "cdb-gro1u0ju.bj.tencentcdb.com",
+        "port": "10156",
+        "username": "root",
+        "password": "wued@2019"
       },
-      "options": {
-        "authenticationDatabase": ""
-      }
+      "options": {}
     }
   }
 }
