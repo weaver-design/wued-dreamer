@@ -31,6 +31,7 @@ module.exports = {
           '/frontend/',
           '/frontend/atomsystem',
           '/frontend/storybook',
+          '/frontend/framework',
         ]
       }, {
         title: 'BackEnd',
