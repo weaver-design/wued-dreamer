@@ -8,7 +8,7 @@
             id="email"
             v-model="email"
             type="email"
-            autofocus="true"
+            autofocus
             placeholder="Enter your email"
             required
           />
@@ -21,7 +21,7 @@
             label="password"
             type="password"
             class="form-control"
-            autofocus="true"
+            autofocus
             placeholder="Enter your password"
             required
           />

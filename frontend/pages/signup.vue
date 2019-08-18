@@ -8,7 +8,7 @@
             id="username"
             v-model="username"
             type="text"
-            autofocus="true"
+            autofocus
             placeholder="Enter your username"
             required
           />
@@ -19,7 +19,7 @@
             id="email"
             v-model="email"
             type="email"
-            autofocus="true"
+            autofocus
             placeholder="Enter your email"
             required
           />
