@@ -21,7 +21,7 @@
     "knex": "latest",
     "lodash": "^4.17.5",
     "mysql": "latest",
-    "strapi": "3.0.0-beta.15",
+    "strapi": "3.6.11",
     "strapi-admin": "3.0.0-beta.15",
     "strapi-hook-bookshelf": "3.0.0-beta.15",
     "strapi-hook-knex": "3.0.0-beta.15",
@@ -32,7 +32,7 @@
     "strapi-plugin-graphql": "3.0.0-beta.15",
     "strapi-plugin-settings-manager": "3.0.0-beta.15",
     "strapi-plugin-upload": "3.0.0-beta.15",
-    "strapi-plugin-users-permissions": "3.0.0-beta.15",
+    "strapi-plugin-users-permissions": "3.6.11",
     "strapi-provider-upload-tencent": "^3.0.0-beta.14",
     "strapi-utils": "3.0.0-beta.15"
   },
